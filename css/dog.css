@@ -1,0 +1,39 @@
+body {
+  background-image: url(../imgs/tripbackground.jpg);
+background-repeat: no-repeat;
+ background-size: 500%;
+}
+
+img {
+  height: 800px;
+  width:350px;
+  border: 2px double black;
+  padding: 2px;
+
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: grey;
+  color: teal;
+}
+
+.clickable1, .clickable2, .clickable3 {
+  text-decoration: underline;
+}
+
+.clickable1:hover, .clickable2:hover, .clickable3:hover {
+  cursor: pointer;
+  color: #000bcc;
+  background-color: yellow;
+}
+p {
+  background-color: pink;
+  text-align: center;
+  font-size: 20px
+
+}
+
+.hidden1, .hidden2, .hidden3 {
+  display: none;
+}

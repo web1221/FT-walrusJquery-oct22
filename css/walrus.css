@@ -1,0 +1,12 @@
+ .walrus-hidden {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: lightblue;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
