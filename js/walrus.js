@@ -16,4 +16,8 @@ $('button#black').click(function() {
     $('#white').hide();
     $('#black').show();
   });
+  $('p').hover(function() {
+    $('.main').addClass('text-highlight');
+  })
+
 });
