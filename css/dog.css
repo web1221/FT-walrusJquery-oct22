@@ -1,8 +1,25 @@
-body {
-  background-image: url(../imgs/tripbackground.jpg);
-background-repeat: no-repeat;
- background-size: 500%;
+.background-green {
+  background-color: green;
+  background-size: 500%;
 }
+
+.background-red {
+  background-color: red;
+  background-size: 500%;
+}
+
+.background-yellow {
+  background-color: yellow;
+  background-size: 500%;
+}
+
+
+.background-image {
+background-image: url(../imgs/tripbackground.jpg);
+background-repeat: no-repeat;
+background-size: 500%;
+}
+
 
 img {
   height: 800px;
@@ -36,4 +53,8 @@ p {
 
 .hidden1, .hidden2, .hidden3 {
   display: none;
+}
+
+.background-green {
+  background-color: green;
 }

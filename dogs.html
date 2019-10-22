@@ -7,7 +7,8 @@
   <script src="js/dogs.js" charset="utf-8"></script>
   <title>Meet your new best friend!</title>
 </head>
-<body>
+<body class="background-image">
+
   <div class="container">
     <div class="jumbotron">
       <h1>Choose Your Door To Find Your Dog </h1>
@@ -19,12 +20,12 @@
         <div class="showing1">
 
         <img class="images" src="imgs/creepy.jpg" alt="" >
-        <p><span class="clickable1">Click here</span> to see your future pet</p>
+        <p><button type="button" id="yellow"  class='clickable1 btn btn-primary' name="button">Click here</button> see your future pet</p>
       </div>
       <div class="hidden1">
 
       <img src="imgs/puppy.jpg" alt="">
-      <p>Your new friend!<span class="clickable1"> Click here</span> to close the door.</p></p>
+      <p>Your new friend! <button  class="clickable1 btn btn-primary return" id='return1' type="button" >Click here</button> to close the door.</p>
     </div>
     </div>
 
@@ -32,11 +33,11 @@
         <div class="showing2">
 
         <img src="imgs/normal.jpg" alt="" >
-        <p><span class="clickable2">Click here</span> to see your future pet</p>
+        <p><button type="button" id='red' class='clickable2 btn btn-primary' name="button">Click here</button>to see your future pet</p>
       </div>
       <div class="hidden2">
         <img src="imgs/peruviandog.jpg" alt="">
-        <p>Your new friend!<span class="clickable2"> Click here</span> to close the door.</p></p>
+        <p>Your new friend!<button class="clickable2 btn btn-primary" id='return2' type="button" > Click here</button> to close the door.</p>
       </div>
     </div>
 
@@ -44,40 +45,18 @@
         <div class="showing3">
 
         <img src="imgs/buddist.jpg" alt="">
-        <p><span class="clickable3"> Click here</span> to see your future pet</p>
+        <p><button class='clickable3 btn btn-primary' id='green' type="button">Click here</button> to see your future pet</p>
         </div>
         <div class="hidden3">
           <img src="imgs/ferret.jpg" alt="">
-          <p>Your new friend! <span class="clickable3">Click here</span> to close the door.</p>
+          <p>Your new friend! <button class="clickable3 btn btn-primary" id='return3' type="button" >Click here</button> to close the door.</p>
+
 
         </div>
-      </div>
-
-      </div>
-
-    <!-- <div class="row">
-      <div class="col-lg-4">
-        <div class="hidden1">
-
-        <img src="imgs/puppy.jpg" alt="">
-        <p>Your new friend!</p>
-      </div>
-    </div> -->
-
-    <!-- <div class="col-lg-4">
-      <div class="hidden2">
-        <img src="imgs/peruviandog.jpg" alt="">
-        <p>Your new friend!</p>
-      </div>
-    </div> -->
-
-    <!-- <div class="col-lg-4">
-      <div class="hidden3">
-        <img src="imgs/ferret.jpg" alt="">
-        <p>Your new friend!</p>
-      </div> -->
 
     </div>
+    </div>
+</div>
 
 </body>
 </html>
